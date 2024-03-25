@@ -11,7 +11,7 @@ def checkout(request):
         return redirect(reverse('products'))
 
     order_form = OrderForm()
-    template = 'checkout/check_out.html'
+    template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
     }
